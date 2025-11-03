@@ -1,6 +1,8 @@
-Simple mod for my modpack. 
+# HeightLimiter mod
+**IF YOU ARE USE 1.0 BEFORE PLEASE REMOVE OLD CONFIG BEFORE UPDATING TO 2.0**
+
+Gives you ability to prevent spawn of specific mobs on a specific heights 
+
 Modrinth link https://modrinth.com/mod/heightlimiter
 
-In the next version, I will add ability to add separated mob groups with custom limits for each of them.
-
-NOTE: I'm not actual java developer and not actual english speaker, code and spelling mistakes may occur :)
+NOTE: I'm not actual java developer and not actual english speaker, code and spelling might be *suboptimal*.
