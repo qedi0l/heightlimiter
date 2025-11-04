@@ -19,7 +19,7 @@ public class ServerConfig {
         public static ForgeConfigSpec.ConfigValue<Boolean> LOGGING = null;
         private static final ArrayList<String> categories = new ArrayList<>(
                 List.of(
-                    "[mod:example1,mod:example2]:-64:64"
+                    "[mod:example1,mod:example2]%-64%64"
                 )
         );
 
@@ -43,7 +43,7 @@ public class ServerConfig {
                     .define("custom categories enable", false);
 
             CUSTOM_CATEGORIES  = builder
-                    .comment("\n Custom categories, fomrat like this [array of mobs]:bottom_limit:top_limit. \n You can add another array inside.")
+                    .comment("\n Custom categories, fomrat like this [array of mobs]%bottom_limit%top_limit. \n You can add another array inside.")
                     .define("categories", categories);
 
             LOGGING = builder
