@@ -39,8 +39,8 @@ public class ServerConfig {
                     .define("limited", "['abominations_infection']");
 
             CUSTOM_CATEGORIES_ENABLE = builder
-                    .comment("\n Spam in your logs? :)")
-                    .define("custom categories enable", false);
+                    .comment("\n custom categories enable")
+                    .define("custom_categories_enable", false);
 
             CUSTOM_CATEGORIES  = builder
                     .comment("\n Custom categories, fomrat like this [array of mobs]%bottom_limit%top_limit. \n You can add another array inside.")
